@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Primer CardView -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="#D3D3D3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/image_view_1"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mundo"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/titulo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_view_1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:text="¿Qué países tienen convenio con el SENA y para qué sirven?"
+                android:fontFamily="@font/robotoitalic"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Segundo CardView -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="#70B22D">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/image_view_2"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/directorsena"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/titulo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_view_2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:text="El Director General del SENA visitó los modernos ambientes de formación del Huila"
+                android:fontFamily="@font/robotoitalic"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Tercer CardView -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="#D3D3D3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/image_view_3"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/egresadosena"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/titulo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_view_3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:text="Egresado SENA entrenará a la selección de robótica de Emiratos Árabes"
+                android:fontFamily="@font/robotoitalic"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Botones -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volver"
+            android:backgroundTint="#70B22D"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/robotoitalic"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/btn_registrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrar"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="#70B22D"
+            android:fontFamily="@font/robotoitalic"
+            android:onClick="btn_registrar"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".activity_list">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Lista de técnicos y tecnólogos"
+        android:fontFamily="@font/robotoitalic"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#70B22D"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"/>
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/BtnNoticias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#70B22D"
+            android:fontFamily="@font/robotoitalic"
+            android:text="Noticias"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/BtnVolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:backgroundTint="#70B22D"
+            android:text="Volver"
+
+            android:textStyle="bold"
+            android:fontFamily="@font/robotoitalic"/>
+    </LinearLayout>
+
+</LinearLayout>

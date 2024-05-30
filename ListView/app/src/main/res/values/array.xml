@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="arraylista">
+            <item>Antonela</item>
+            <item>Rafaela</item>
+            <item>Diana</item>
+            <item>Anaybe</item>
+            <item>Luisa</item>
+            <item>Maria</item>
+            <item>Gloria</item>
+            <item>Bárbara</item>
+            <item>Rocio</item>
+            <item>Alexa</item>
+            <item>Lucia</item>
+            <item>Sofia</item>
+            <item>Laura</item>
+            <item>Angeles</item>
+            <item>Maidy</item>
+            <item>Dayana</item>
+            <item>Karol</item>
+            <item>Viviana</item>
+            <item>Lenine</item>
+            <item>Natalia</item>
+            <item>Angie</item>
+            <item>Mariana</item>
+            <item>Mayra</item>
+            <item>Mar</item>
+            <item>Carolina</item>
+            <item>Vanessa</item>
+        </string-array>
+</resources>

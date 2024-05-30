@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FrameLayout</string>
+        <string name="categoria_frutas">Frutas</string>
+        <string name="categoria_vegetales">Vegetales</string>
+        <string name="categoria_postres">Postres</string>
+        <string name="categoria_platos_principales">Platos Principales</string>
+</resources>

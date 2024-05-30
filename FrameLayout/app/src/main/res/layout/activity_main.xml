@@ -1,0 +1,79 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:padding="16dp">
+
+    <!-- Categoría 1 -->
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#FF4081"
+        android:layout_margin="8dp">
+
+        <!-- Contenido de la categoría 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Frutas"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+    <!-- Categoría 2 -->
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#FFC107"
+        android:layout_margin="8dp"
+        android:layout_gravity="top|end">
+
+        <!-- Contenido de la categoría 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vegetales"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+    <!-- Categoría 3 -->
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#4CAF50"
+        android:layout_margin="8dp"
+        android:layout_gravity="bottom|start">
+
+        <!-- Contenido de la categoría 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Postres"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+    <!-- Categoría 4 -->
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#2196F3"
+        android:layout_margin="8dp"
+        android:layout_gravity="bottom|end">
+
+        <!-- Contenido de la categoría 4 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Platos Principales"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+</FrameLayout>

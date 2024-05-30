@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ConstraintLayout</string>
+
+        <!-- Título de la invitación -->
+        <string name="invitation_title">Te invito a mi fiesta</string>
+
+        <!-- Descripción de la invitación -->
+        <string name="invitation_description">A celebrar mis 19 años </string>
+
+        <!-- Fecha y hora de la invitación -->
+        <string name="invitation_date_time">Fecha: 24/08/2024  Hora: 04:00 p.m</string>
+
+
+        <!-- Lugar de la invitación -->
+        <string name="invitation_location">Dirección: Carrera 13B Número 29-23
+        Las Palmitas Campoalegre Huila</string>
+
+
+
+        <!-- Texto del botón -->
+        <string name="confirm_button">Confirmar Asistencia</string>
+</resources>

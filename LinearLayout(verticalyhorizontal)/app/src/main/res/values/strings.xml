@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LinearLayout(verticalyhorizontal)</string>
+        <string name="buttonRegister">Registrar</string>
+        <string name="buttonCancel">Cancelar</string>
+</resources>

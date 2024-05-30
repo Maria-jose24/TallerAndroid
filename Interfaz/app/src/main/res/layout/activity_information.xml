@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/sena"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Centro de la industria, la empresa y los servicios"
+        android:fontFamily="@font/robotoitalic"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#70B22D"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Somos una institución pública de educación en la carrera 9 Número 68-50, Neiva Huila. Ofrecemos formación gratuita en programas técnicos, tecnológicos y complementarios. Nuestra misión es invertir en el desarrollo social y técnico de los trabajadores colombianos, ofreciendo formación profesional integral para su incorporación y desarrollo en actividades productivas que contribuyan al progreso social, económico y tecnológico."
+        android:fontFamily="@font/robotoitalic"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+
+    <!-- Nuevo LinearLayout horizontal para los botones -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp">
+
+        <Button
+            android:id="@+id/BtnLista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#70B22D"
+            android:fontFamily="@font/robotoitalic"
+            android:text="Ver Lista"
+            android:onClick="BtnLista"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/BtnVolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:backgroundTint="#70B22D"
+            android:text="Volver"
+            android:textStyle="bold"
+            android:onClick="BtnVolver"
+            android:fontFamily="@font/robotoitalic"/>
+
+    </LinearLayout>
+
+</LinearLayout>

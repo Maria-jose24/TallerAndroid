@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arrayLista">
+        <item>Técnico en mantenimiento de equipos de aire acondicionado y refrigeración</item>
+        <item>Técnico en mecánica de maquinaria industrial</item>
+        <item>Técnico en dibujo Arquitectónico</item>
+        <item>Técnico en operación de servicios omnicanal en contact center y BPO</item>
+        <item>Tecnólogo en implementación y mantenimiento de sistemas de instrumentación y control de procesos industriales </item>
+        <item>Tecnólogo en electricidad industrial</item>
+        <item>Tecnólogo en mantenimiento electrónico e instrumental industrial</item>
+        <item>Tecnólogo en construcción de infraestructura vial</item>
+        <item>Tecnólogo en producción de multimedia</item>
+        <item>Tecnólogo en mantenimiento electromecánico industrial</item>
+    </string-array>
+</resources>
